@@ -14,8 +14,8 @@ public class Autoservise {
     public void modify(Car car1){
         String newmarka = car1.getmarka();
         newmarka = newmarka.toUpperCase();
-        String newMarka = newmarka.replaceAll("a", "o");
-        String finMarka = newMarka.replaceAll("i", "e");
+        String newMarka = newmarka.replaceAll("A", "O");
+        String finMarka = newMarka.replaceAll("I", "E");
         car1.setmarka(finMarka);
     }
 }
